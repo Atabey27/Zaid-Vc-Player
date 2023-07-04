@@ -11,7 +11,7 @@ if os.path.exists("local.env"):
 load_dotenv()
 admins = {}
 
-SESSION_NAME = getenv("SESSION_NAME")
+SESSION_NAME = getenv("SESSION_NAME=BAC98_V4FhQXE-pGQ0EsdLd9yoTciVDvzT-_vXH5dgq3kL16JLhubUKKuLQffu6NClKsj3Z_RPZ6KHE7rk3z9kAd5opYjEMAAeSLf5ynfhpOTq8vNJblHPRgkhgwcj1MmBhHfmbw7fZq5Y066JtKfr6_0FivB-k5o4jBwZRrs7giif0i6DQdgjzbw31SODae4gsYEzGkIVS_nrGCKSQOOxgeEf_Y41j5JnjlIsiJmLi1PrWLf8NRCmYxfUWtxfYZ-drYE8ouf1Sv0om5WLCTpAeoQ5JlCDtm_K4GxxQ_N18rK9afPtLFQVvXKDpe1HctejXa2MUZ9ngOJseslMnXwJrUTKJLtgA")
 
 if str(getenv("STRING_SESSION2")).strip() == "":
     SESSION2 = str(None)
@@ -33,8 +33,8 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-BOT_NAME = getenv("BOT_NAME", "Umk")
+BOT_TOKEN = getenv("BOT_TOKEN", "6374624814:AAEKpIzru9w_ww4Oz5G8fvn7ueA5h1IJWTc")
+BOT_NAME = getenv("BOT_NAME", "Müzik botu")
 
 API_ID = int(getenv("API_ID", "1148427"))
 API_HASH = getenv("API_HASH", "362406c73185652edcf9942fde49719c")
